@@ -175,10 +175,10 @@ window.bind('<Down>',
 window.bind('<Return>',
             lambda event: print(walls))
 
-snake = [240, 0]
+snake = [160, 440]
 walls = []
 
-food = [240, 440]
+food = [400, 0]
 
 drawPlayer(snake)
 for wall in walls:
